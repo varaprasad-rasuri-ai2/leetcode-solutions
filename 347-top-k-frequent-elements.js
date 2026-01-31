@@ -22,6 +22,7 @@ var topKFrequent = function (a, k) {
         }
     }
 
+    
     // Array to store the result
     let res = [];
 
