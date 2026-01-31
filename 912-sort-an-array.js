@@ -1,6 +1,7 @@
 // Merges two sorted subarrays of a into one sorted range
 // First subarray: a[lo1 ... hi1]
 // Second subarray: a[lo2 ... hi2]
+
 function merge(a, lo1, hi1, lo2, hi2) {
     // Temporary array to store merged result
     let res = [];
