@@ -39,6 +39,7 @@ var completePrime = function (num) {
         if (!isPrime(+suffix)) return false;
     }
 
+    
     // If all prefixes and suffixes were prime, it's a "complete prime"
     return true;
 };
