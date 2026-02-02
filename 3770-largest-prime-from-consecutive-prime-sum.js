@@ -17,7 +17,8 @@ var getPrimesTill_sieveOfEratosthenes = (n) => {
         }
     }
 
-    return primes; // Boolean array of primality
+    // Boolean array of primality
+    return primes; 
 };
 
 // Precompute primes up to 500,001
