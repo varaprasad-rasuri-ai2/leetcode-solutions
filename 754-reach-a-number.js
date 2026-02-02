@@ -13,6 +13,7 @@ var reachNumber = function (target) {
       2. The difference between sum and target is even
          (so we can flip directions of some steps to reach exactly target)
     */
+   
     while (sum < target || (sum - target) % 2 !== 0) {
         step++          // take the next step
         sum += step     // add the step length to the total sum
