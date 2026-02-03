@@ -1,11 +1,3 @@
-/**
- * Rotates a linked list to the right by k places.
- * This implementation uses an array to store values.
- *
- * @param {ListNode} head - Head of the linked list
- * @param {number} k - Number of rotations
- * @return {ListNode} - Head of the rotated linked list
- */
 var rotateRight = function(head, k) {
     let vals = [];  // Array to store all node values
 
@@ -38,13 +30,6 @@ var rotateRight = function(head, k) {
 };
 
 
-/**
- * Rotates a linked list to the right by k places in-place.
- *
- * @param {ListNode} head - Head of the linked list
- * @param {number} k - Number of rotations
- * @return {ListNode} - Head of the rotated linked list
- */
 var rotateRight222 = function(head, k) {
     if (!head || !head.next || k === 0) return head; // Edge cases
 
