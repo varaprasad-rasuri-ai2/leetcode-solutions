@@ -76,6 +76,7 @@ var canMakeEqual = function (nums, k) {
     return check(nums, k, 1) || check(nums, k, -1);
 };
 
+
 // helper function that simulates the flips
 function check(nums, k, target) {
     const n = nums.length;
