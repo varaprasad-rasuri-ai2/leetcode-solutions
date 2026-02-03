@@ -16,6 +16,7 @@ var countElements = function (a, k) {
         // If at least k elements are greater than a[i], count it.
         if (gtXCount >= k) ct++;
     }
+    
 
     return ct;
 };
