@@ -15,6 +15,7 @@ var minCost = function(arr, brr, k) {
     // Total cost for option 2 = sum of differences after sorting + rearrangement cost
     let diffModified = arrayDifference(arrSorted, brrSorted);
 
+    
     // Return the minimum of the two options
     return Math.min(diffAsIs, diffModified + k);
 };
