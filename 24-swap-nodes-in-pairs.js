@@ -1,10 +1,3 @@
-/**
- * Swaps every two adjacent nodes in a linked list.
- * Note: This implementation swaps node values, not actual nodes.
- *
- * @param {ListNode} head - Head of the linked list
- * @return {ListNode} - Head of the modified linked list
- */
 var swapPairs = function(head) {
     let t = head;
 
@@ -21,13 +14,6 @@ var swapPairs = function(head) {
 };
 
 
-
-/**
- * Swaps every two adjacent nodes in a linked list (actual nodes, not values).
- *
- * @param {ListNode} head - Head of the linked list
- * @return {ListNode} - Head of the modified linked list
- */
 var swapPairs222 = function(head) {
     // Step 1: Create a dummy node to simplify edge cases
     const dummy = new ListNode(0);
