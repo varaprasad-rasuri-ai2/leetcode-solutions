@@ -1,11 +1,3 @@
-
-/**
- * Generates all possible letter combinations for a given string of digits
- * based on a classic phone keypad mapping.
- *
- * @param {string} digits - Input string of digits (2-9)
- * @returns {string[]} - Array of all possible letter combinations
- */
 var letterCombinations = function(digits) {
 
     // 1️⃣ Map each digit to its corresponding letters
@@ -27,13 +19,6 @@ var letterCombinations = function(digits) {
     const n = digits.length; // Total number of digits in input
     const res = [];          // Array to store all valid letter combinations
 
-    /**
-     * 3️⃣ Backtracking helper function
-     * Explores all letter combinations recursively.
-     *
-     * @param {number} pos - Current index in the digits string
-     * @param {string} path - Current combination being built
-     */
     function backtrack(pos, path) {
         // 3a️⃣ Base case: if path length equals number of digits
         if (path.length === n) {
