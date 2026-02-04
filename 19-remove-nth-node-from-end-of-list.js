@@ -1,10 +1,3 @@
-/**
- * Removes the n-th node from the end of a linked list.
- *
- * @param {ListNode} head - Head of the linked list
- * @param {number} n - Position from the end (1-indexed)
- * @return {ListNode} - Head of the modified linked list
- */
 var removeNthFromEnd = function(head, n) {
     let count = 0;      // Count total number of nodes
     let t = head;
