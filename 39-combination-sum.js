@@ -12,7 +12,6 @@ var combinationSum = function (a, target) {
     // (used here to prevent infinite recursion caused by flawed logic below)
     let visited = new Set()
 
-
     function search(path, sum) {
         // create a string key representing the current path, e.g. [2,3] -> "2-3"
         // used to detect if this exact path has been processed before
