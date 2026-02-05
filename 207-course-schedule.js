@@ -236,6 +236,7 @@ class Graph {
     bfs() {}
     hasCycle() {}
 
+    
     // Demo method showing reuse of Graph for multiple problems
     demo() {
         // Examples omitted for brevity — this is a sandbox
