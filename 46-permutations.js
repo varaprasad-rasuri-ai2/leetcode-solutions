@@ -15,6 +15,7 @@ var permute = function(nums) {
     }
 
     backtrack(0)
+    
     return res
 }
 
