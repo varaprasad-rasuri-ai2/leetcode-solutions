@@ -1,9 +1,3 @@
-/**
- * Generates all unique permutations of an array that may contain duplicates.
- * 
- * @param {number[]} nums - Input array of numbers
- * @returns {number[][]} - Array of unique permutations
- */
 var permuteUnique = function(nums) {
     let a = nums;           // Copy of input array
     let n = a.length;       // Length of array
