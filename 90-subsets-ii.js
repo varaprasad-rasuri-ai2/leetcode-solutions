@@ -1,10 +1,3 @@
-/**
- * Generates all possible subsets of an array that may contain duplicates,
- * ensuring that each subset is unique.
- * 
- * @param {number[]} nums - Input array of numbers
- * @returns {number[][]} - Array of unique subsets
- */
 var subsetsWithDup = function(nums) {
 
     // 1️⃣ Sort the array so duplicates are adjacent
@@ -58,12 +51,6 @@ var subsetsWithDup = function(nums) {
 };
 
 
-/**
- * Generates all unique subsets of an array that may contain duplicates.
- * 
- * @param {number[]} nums - Input array of numbers (may contain duplicates)
- * @returns {number[][]} - Array of unique subsets
- */
 var subsetsWithDup222 = function(nums) {
     const res = [];          // Array to store all unique subsets
     const n = nums.length;   // Length of input array
