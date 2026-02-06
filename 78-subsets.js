@@ -29,6 +29,7 @@ var subsets222 = function (nums) {
 var subsets = function(nums) {
     let res = [];
 
+    
     function backtrack(start, path) {
         res.push([...path]);     // record current subset
 
