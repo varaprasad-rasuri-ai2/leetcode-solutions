@@ -1,10 +1,3 @@
-/**
- * Removes all nodes that have duplicate numbers from a linked list.
- * Only nodes with unique values remain.
- *
- * @param {ListNode} head - Head of the linked list
- * @return {ListNode} - Head of modified list with duplicates removed
- */
 var deleteDuplicates = function(head) {
     let freq = {}; // Object to store frequency of each value
 
@@ -36,14 +29,6 @@ var deleteDuplicates = function(head) {
 };
 
 
-
-/**
- * Removes all nodes with duplicate values from a linked list.
- * Only keeps nodes with unique values.
- *
- * @param {ListNode} head - Head of the linked list
- * @return {ListNode} - Head of list with duplicates removed
- */
 var deleteDuplicates222 = function(head) {
     if (!head) return null;
 
