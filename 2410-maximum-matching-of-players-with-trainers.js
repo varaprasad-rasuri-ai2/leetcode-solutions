@@ -2,6 +2,7 @@ cl = console.log
 var matchPlayersAndTrainers = function (players, trainers) {
     cl({ players, trainers })
 
+    
     // Step 1: Sort both arrays in ascending order
     players.sort((a, b) => a - b)
     trainers.sort((a, b) => a - b)
