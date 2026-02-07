@@ -24,6 +24,7 @@ var kthSmallest = function (root, k) {
         dfs(n.right);
     }
 
+    
     dfs(root);
 
     return kthSmallestVal;
