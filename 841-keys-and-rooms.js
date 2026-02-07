@@ -6,6 +6,7 @@ class Graph {
     indegree;   // indegree[i] = number of incoming edges to node i
     outdegree;  // outdegree[i] = number of outgoing edges from node i
 
+    
     constructor({ n, edges, isDirected, adj }) {
         this.n = n;
         this.edges = edges;
