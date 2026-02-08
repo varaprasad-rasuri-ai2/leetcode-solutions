@@ -40,6 +40,7 @@ class MinStack {
     };
 };
 
+
 class MinStack222 {
     constructor() {
         this.a = [];
