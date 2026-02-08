@@ -23,12 +23,6 @@ class CombinationIterator {
         // NOTE: For strings with unique characters, this is unnecessary
         let visited = new Set();
 
-        /**
-         * Recursive helper function to generate combinations
-         * 
-         * @param {number} pos - Current position in the string to consider
-         * @param {string} path - Current combination being built
-         */
         function search(pos, path) {
 
             // ------------------------------
