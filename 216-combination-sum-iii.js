@@ -39,7 +39,6 @@ var combinationSum3 = function (k, target) {
 };
 
 
-
 var combinationSum355555 = function(k, target) {
 
     // The allowed digits are 1 through 9
@@ -48,13 +47,6 @@ var combinationSum355555 = function(k, target) {
     // Result array to store all valid combinations
     let res = [];
 
-    /**
-     * Backtracking function to explore combinations
-     * 
-     * @param {number} pos  - Current starting number to consider (1-based)
-     * @param {Array} path  - Current combination being built
-     * @param {number} sum  - Sum of numbers in current combination
-     */
     function search(pos, path, sum) {
 
         // -----------------------------
