@@ -39,5 +39,6 @@ var deleteNode = function (root, targetVal) {
         return n.right;
     }
 
+    
     return dfs(root);
 };
