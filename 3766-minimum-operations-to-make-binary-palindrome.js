@@ -30,6 +30,7 @@ var minOperations = function (nums) {
         }
     }
 
+    
     return res; // array of minimum operations for each number
 };
 
