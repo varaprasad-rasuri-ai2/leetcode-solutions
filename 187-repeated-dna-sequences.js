@@ -25,7 +25,6 @@ var findRepeatedDnaSequences = function (s) {
     return Array.from(twice);
 };
 
-
 var findRepeatedDnaSequences222 = function (s) {
     // Length of the input DNA string
     let n = s.length;
