@@ -20,5 +20,6 @@ var numberOfSubarrays = function (nums, k) {
         count.set(sum, (count.get(sum) || 0) + 1)
     }
 
+    
     return result  // Return the total number of subarrays with exactly k odd numbers
 };
