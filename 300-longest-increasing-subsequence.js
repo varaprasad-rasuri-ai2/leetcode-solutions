@@ -19,6 +19,7 @@ const lengthOfLIS = function lengthOfLIS(a) {
     return dp.length;
 };
 
+
 // Binary search to find the first index in arr
 // where the value is greater than or equal to target
 function lowerBound(target, arr, lo = 0, hi = arr.length) {
