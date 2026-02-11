@@ -1,10 +1,3 @@
-/**
- * Finds all increasing subsequences of length >= 2 in the input array.
- * Handles duplicates by using a visited set.
- * 
- * @param {number[]} nums - Input array
- * @returns {number[][]} - Array of all increasing subsequences
- */
 var findSubsequences = function(nums) {
     let a = nums;           // Copy of input array
     let n = a.length;       // Length of array
@@ -60,13 +53,6 @@ var findSubsequences = function(nums) {
 };
 
 
-/**
- * Finds all increasing subsequences of length >= 2 in the input array.
- * Handles duplicates and ensures each subsequence is unique.
- * 
- * @param {number[]} nums - Input array
- * @returns {number[][]} - Array of unique increasing subsequences
- */
 var findSubsequences222 = function(nums) {
     const res = [];        // Array to store subsequences
     const n = nums.length; // Length of input array
