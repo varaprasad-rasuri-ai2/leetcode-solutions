@@ -8,6 +8,7 @@ var minOperations = function (a, k) {
     // This tells us how far the sum is from being divisible by k
     let remaining = tot % k;
 
+    
     // Step 3: If remainder = 0, it's already divisible → 0 operations needed
     // Otherwise, we need to reduce the sum by 'remaining' to make it divisible
     return remaining === 0 ? 0 : remaining;
