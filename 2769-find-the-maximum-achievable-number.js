@@ -13,6 +13,7 @@ var theMaximumAchievableX22222 = function (num, t) {
     for (let i = 1; i <= t; i++) {
         num += 2;
     }
+    
     // Final value is the same as num + 2 * t
     return num;
 };
