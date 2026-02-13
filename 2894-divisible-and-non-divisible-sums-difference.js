@@ -1,6 +1,7 @@
 // Function to calculate the difference between the sum of numbers not divisible by m 
 // and the sum of numbers divisible by m in the range [1, n]
 var differenceOfSums = function (n, m) {
+    
     // Initialize sum of numbers not divisible by m (num1)
     let s1 = 0;
 
