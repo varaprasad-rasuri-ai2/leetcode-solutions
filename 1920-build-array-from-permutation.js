@@ -14,6 +14,7 @@ var buildArray = function (nums) {
         ans.push(nums[nums[i]]);
     }
 
+    
     // Step 4: Return the resulting array
     return ans;
 };
