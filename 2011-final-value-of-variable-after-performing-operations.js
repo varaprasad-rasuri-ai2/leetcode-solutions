@@ -16,6 +16,7 @@ var finalValueAfterOperations = function (operations) {
         }
     }
 
+    
     // Step 4: After processing all operations, return the final value of X
     return X;
 };
