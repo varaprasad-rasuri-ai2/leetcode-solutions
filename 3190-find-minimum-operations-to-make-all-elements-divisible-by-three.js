@@ -1,6 +1,7 @@
 var minimumOperations = function (nums) {
     return nums
         // Step 1: Take each element and get its remainder when divided by 3
+        
         // Possible remainders are:
         // 0 → already divisible by 3
         // 1 → needs 1 subtraction to reach the nearest multiple of 3
