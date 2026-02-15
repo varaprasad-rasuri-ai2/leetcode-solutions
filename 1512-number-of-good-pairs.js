@@ -6,6 +6,7 @@ var numIdenticalPairs = function (nums) {
     // The outer loop picks the first element
     for (let i = 0; i < nums.length; i++) {
 
+        
         // The inner loop picks the second element
         // Start from i + 1 because we only consider pairs where i < j
         for (let j = i + 1; j < nums.length; j++) {
