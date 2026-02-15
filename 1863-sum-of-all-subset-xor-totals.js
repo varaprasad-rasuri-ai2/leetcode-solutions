@@ -9,6 +9,7 @@ var subsetXORSum = function (a) {
 	for (let bitMask = 0; bitMask < 2 ** n; bitMask++) {
 
 		cl(bitMask); // Log the current bitmask in decimal
+		
 		let bitMaskStr = bitMask.toString(2); // Convert the bitmask to a binary string (e.g., "101")
 		cl(bitMaskStr);
 
