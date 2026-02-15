@@ -10,6 +10,7 @@ var getSneakyNumbers = function (a) {
         o[x] = (o[x] ?? 0) + 1
     }
 
+    
     // Initialize an empty array to hold the sneaky numbers
     let result = []
 
