@@ -15,6 +15,7 @@ var reversePrefix = function (s, k) {
     return firstPartStr + remainingPartStr;
 };
 
+
 var reversePrefix222 = function (s, k) {
     // Reverse first k characters and append the rest
     return s.slice(0, k).split("").reverse().join("") + s.slice(k);
