@@ -12,6 +12,7 @@ var numJewelsInStones = function (jewelTypes, stones) {
         }
     }
 
+    
     // Return the total count of jewels found
     return count;
 };
