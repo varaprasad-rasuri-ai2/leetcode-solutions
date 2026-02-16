@@ -1,7 +1,3 @@
-/**
- * @param {number[]} nums
- * @return {number}
- */
 var alternatingSum = function (nums) {
     let sumEven = 0
     let sumOdd = 0
@@ -12,6 +8,7 @@ var alternatingSum = function (nums) {
             sumOdd += x
         }
     })
+
     let alternatingSum = sumEven - sumOdd
     return alternatingSum
 
