@@ -1,4 +1,5 @@
 // Function to convert a date string (yyyy-mm-dd) to its binary representation
+
 var convertDateToBinary = function (date) {
     return date
         // Split the date string into an array: [year, month, day]
