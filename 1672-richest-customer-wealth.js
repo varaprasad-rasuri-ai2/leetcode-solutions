@@ -1,5 +1,6 @@
 // Function to find the richest customer's wealth
 var maximumWealth = function (accounts) {
+    
     // Initialize a variable to keep track of the maximum wealth found so far
     let maxcw = 0;
 
