@@ -12,6 +12,7 @@ var findClosest = function (x, y, z) {
     // If Person 1 is closer to Person 3, they will arrive first
     if (x2zDist < y2zDist) return 1;
 
+    
     // Otherwise, Person 2 is closer and will arrive first
     return 2;
 };
