@@ -1,8 +1,3 @@
-/**
- * @param {number[]} nums
- * @param {number} n
- * @return {number[]}
- */
 var shuffle = function (nums, n) {
     // Step 1: Initialize an empty array to hold the shuffled result
     let result = [];
