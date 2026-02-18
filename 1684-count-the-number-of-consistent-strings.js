@@ -1,8 +1,3 @@
-/**
- * @param {string} allowed
- * @param {string[]} words
- * @return {number}
- */
 var countConsistentStrings = function(allowed, words) {
 let count = 0;
 // let allowed = "ab";
