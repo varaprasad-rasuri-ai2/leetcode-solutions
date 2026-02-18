@@ -34,6 +34,7 @@ var reverseDegree = function (s) {
         sum += prod;
     }
 
+    
     // Return the total reverse degree
     return sum;
 };
