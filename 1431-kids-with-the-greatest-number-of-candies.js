@@ -1,9 +1,3 @@
-/**
- * @param {number[]} candies - Array where candies[i] is the number of candies the i-th kid has
- * @param {number} extraCandies - The number of extra candies available to give to each kid
- * @return {boolean[]} - Boolean array where result[i] indicates if the i-th kid can have the most candies
- */
-
 var kidsWithCandies = function (candies, extraCandies) {
     let result = [];
     let maxCandies = Math.max(...candies); // compute once
