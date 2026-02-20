@@ -12,6 +12,7 @@ var interpret = function(command) {
   // Example: "G(al)" becomes "Gal"
   command = command.replace(/\(al\)/g, 'al');
   
+  
   // Step 3: Return the fully interpreted string
   return command;
 };
