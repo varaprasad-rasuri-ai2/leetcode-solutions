@@ -35,6 +35,7 @@ var leftRightDifference = function (a) {
         result.push(Math.abs(leftSum[i] - rightSum[i]));
     }
 
+    
     // Return the array of differences
     return result;
 };
