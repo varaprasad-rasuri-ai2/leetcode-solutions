@@ -15,6 +15,7 @@ var minBitFlips = function (start, goal) {
     return flipCount;
 };
 
+
 // Approach 2: Manually check each bit using bit masking
 var minBitFlips_v2 = function (start, goal) {
     let flipCount = 0;
