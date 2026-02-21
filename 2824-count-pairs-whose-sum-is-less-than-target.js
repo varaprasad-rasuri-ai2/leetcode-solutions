@@ -1,8 +1,3 @@
-/**
- * @param {number[]} nums   // The array of numbers
- * @param {number} target   // The target sum value
- * @return {number}         // The count of pairs with sum < target
- */
 var countPairs = function (nums, target) {
     // Initialize a counter to keep track of valid pairs
     let count = 0;
