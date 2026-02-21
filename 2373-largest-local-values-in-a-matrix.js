@@ -32,5 +32,6 @@ var largestLocal = function (g) {
         g2.push(rowmaxes) // add the completed row to the result matrix
     }
 
+    
     return g2 // return the resulting (n-2) x (n-2) matrix
 }
