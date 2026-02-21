@@ -16,6 +16,7 @@ var findPermutationDifference = function (s, t) {
         sum += Math.abs(j - i);
     }
 
+    
     // Step 4: Return the total permutation difference
     return sum;
 };
