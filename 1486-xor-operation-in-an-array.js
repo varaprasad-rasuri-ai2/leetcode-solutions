@@ -11,6 +11,7 @@ var xorOperation = function (n, start) {
         a.push(start + 2 * i);
     }
 
+    
     // Step 3: Compute the XOR of all numbers in the array
     // reduce() takes a function that applies XOR (^) to accumulate the result
     // Initial value is 0
