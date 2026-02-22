@@ -20,6 +20,7 @@ let reverse = function (x) {
         x = Math.floor(x / 10);
     }
 
+    
     // Return the reversed number
     return reversed;
 };
