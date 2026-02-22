@@ -20,6 +20,7 @@ var balancedStringSplit = function (s) {
         }
     }
 
+    
     // Return the total number of balanced substrings found
     return count;
 };
