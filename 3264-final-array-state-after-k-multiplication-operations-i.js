@@ -17,6 +17,7 @@ var getFinalState = function (nums, k, multiplier) {
         nums[minIndex] *= multiplier;
     }
 
+    
     //  Return the updated array after all operations
     return nums;
 };
