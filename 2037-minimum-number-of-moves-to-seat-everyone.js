@@ -17,6 +17,7 @@ var minMovesToSeat = function (seats, students) {
         s += Math.abs(students[i] - seats[i]);
     }
 
+    
     // Return the total minimum number of moves needed for all students
     return s;
 };
