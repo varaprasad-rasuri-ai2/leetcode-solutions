@@ -15,6 +15,8 @@ var runningSum = function (nums) {
         result.push(sum);
     }
 
+
+
     // Step 4: Return the final running sum array
     return result;
 };
