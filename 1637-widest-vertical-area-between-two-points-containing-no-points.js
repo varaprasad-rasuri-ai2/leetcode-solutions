@@ -31,6 +31,7 @@ var maxWidthOfVerticalArea = function (points) {
         maxw = Math.max(maxw, w);
     }
 
+    
     // Step 5: Return the largest gap — the widest vertical area
     return maxw;
 };
