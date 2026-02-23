@@ -17,6 +17,7 @@ class ParkingSystem {
             return true; // Successfully parked
         }
 
+        
         // No slots left for this car type
         return false;
     }
