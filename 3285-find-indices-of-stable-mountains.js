@@ -15,6 +15,7 @@ var stableMountains = function (heights, threshold) {
         }
     }
 
+    
     // Return the list of indices of stable mountains
     return stableMs;
 };
