@@ -8,6 +8,7 @@ var truncateSentence = function(s, k) {
     // Step 3: Join them back into a string with spaces
     let result = firstKWords.join(' '); // → "Hello world how"
     
+    
     // Step 4: Return the truncated sentence
     return result;
 };
