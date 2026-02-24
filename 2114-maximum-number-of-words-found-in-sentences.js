@@ -13,6 +13,7 @@ var mostWordsFound = function (sentences) {
         wordsCountInSentences.push(s.split(" ").length);
     }
 
+    
     // Return the maximum word count found in the array
     return Math.max(...wordsCountInSentences);
 };
