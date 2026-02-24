@@ -33,3 +33,24 @@ var findCenter222 = function (edges) {
     return (p1 === p3 || p1 === p4) ? p1 : p2;
 };
 
+// Finds the center node of a star graph
+// In a star graph, the center node appears in every edge
+var findCenter333 = function (edges) {
+    let d = {} // Object to store degree (number of connections) of each node
+
+    for (let [u, v] of edges) {
+        // Increase degree count for node u
+        d[u] = (d[u] ?? 0) + 1
+        
+        // If u appears more than once, it must be the center
+        // because in a star graph only the center has degree > 1
+        if (d[u] > 1) return u
+
+        // Increase degree count for node v
+        d[v] = (d[v] ?? 0) + 1
+        
+        // If v appears more than once, it must be the center
+        if (d[v] > 1) return v
+    }
+};
+
