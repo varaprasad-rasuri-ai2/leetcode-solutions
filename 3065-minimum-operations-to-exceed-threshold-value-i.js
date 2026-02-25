@@ -15,5 +15,6 @@ var minOperations = function (a, k) {
     // x=3 (<5) → +1
     // x=5 (>=5) → +0
     // Total = 2 operations
+    
     return a.reduce((sum, x) => sum + (x < k ? 1 : 0), 0);
 };
