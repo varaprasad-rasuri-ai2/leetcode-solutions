@@ -28,6 +28,7 @@ var subtractProductAndSum = function (n) {
     // Call the helper function and use array destructuring to get both values
     let [sum, prod] = sumAndProductOfDigits(n);
 
+    
     // Return the difference between product and sum
     return prod - sum;
 };
