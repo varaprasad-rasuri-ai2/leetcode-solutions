@@ -17,6 +17,7 @@ var createTargetArray = function (nums, index) {
         // Existing elements from position j onward are shifted right
         target.splice(j, 0, x);
     }
+    
 
     // Return the final constructed target array
     return target;
