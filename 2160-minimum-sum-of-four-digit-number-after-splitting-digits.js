@@ -17,6 +17,7 @@ var minimumSum = function(num) {
 
     for (let i = 0; i < digits.length; i++) {
         let digit = Number(digits[i]);
+        
         if (i % 2 === 0) new1 = new1 * 10 + digit; // shift left and add digit
         else new2 = new2 * 10 + digit;
     }
