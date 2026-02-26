@@ -41,6 +41,7 @@ var sumIndicesWithKSetBits = function (a, k) {
         }
     }
 
+    
     // Return total sum
     return sum;
 };
