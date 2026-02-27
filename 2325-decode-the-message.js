@@ -16,5 +16,6 @@ const decodeMessage = (key, message) => {
         decoded += char === ' ' ? ' ' : mapping.get(char);
     }
 
+    
     return decoded;
 };
