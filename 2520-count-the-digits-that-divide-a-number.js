@@ -19,6 +19,7 @@ var countDigits = function (num) {
         }
     }
 
+    
     // Return the total number of digits that divide 'num'
     return count
 };
