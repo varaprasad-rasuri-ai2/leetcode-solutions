@@ -3,6 +3,7 @@ var getTargetCopy = function (originalRoot, clonedRoot, targetNodeInOriginal) {
     // DFS that walks both trees simultaneously:
     //    o = node in original tree
     //    c = corresponding node in cloned tree
+    
     function dfs(o, c) {
         // Base case: if the original node is null, no match here
         if (!o) return null;
