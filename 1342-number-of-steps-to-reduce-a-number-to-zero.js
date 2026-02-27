@@ -17,7 +17,6 @@ var numberOfSteps = function (x) {
         steps++
     }
 
-    
     // When x reaches 0, return the total number of steps taken
     return steps
 };
